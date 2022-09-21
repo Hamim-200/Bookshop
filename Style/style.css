@@ -32,6 +32,10 @@ body {
   color: #fff;
 }
 
+.text-black {
+  color: black;
+}
+
 .section-heading {
   font-size: 8rem;
   text-align: center;
@@ -45,6 +49,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+
 }
 
 .btn {
@@ -234,10 +239,58 @@ nav li:hover {
 
 /* blog-posts ends here  */
 
+/* archives starts here  */
+
+#section-heading-id {
+  color: white;
+
+}
+
+.archives-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+  border-top: 0.1rem solid;
+  border-bottom: 0.1rem solid;
+}
+
+.section-center1 {
+  padding: 5rem 1rem;
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #1D397A;
+
+}
+
+.archives-container-lists {
+  display: flex;
+  text-align: center;
+}
+
+.archives-container-list {
+  margin: 2rem;
+}
+
+.archives-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.6rem;
+  transition: transform 0.4s;
+}
+
+.archives-img:hover {
+  transform: scale(1.1);
+}
+
+/* archives ends here  */
 
 /* blog-about starts here  */
 #blog-about {
-  background-color: #4c4c4c;
+  background-color: #fafafa;
 }
 
 .card-container {
@@ -280,41 +333,9 @@ nav li:hover {
 
 /* blog-about ends here  */
 
-/* archives starts here  */
-.archives-container {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 2rem;
-  border-top: 0.1rem solid;
-  border-bottom: 0.1rem solid;
-}
-
-.archives-container-lists {
-  display: flex;
-  text-align: center;
-}
-
-.archives-container-list {
-  margin: 2rem;
-}
-
-.archives-img {
-  width: 100%;
-  height: 100%;
-  border-radius: 0.6rem;
-  transition: transform 0.4s;
-}
-
-.archives-img:hover {
-  transform: scale(1.1);
-}
-
-/* archives ends here  */
-
 /* contact section starts here  */
 #contact-section {
-  background-color: #4c4c4c;
+  background-color: #1D397A;
   min-height: 90vh;
 }
 
@@ -367,7 +388,7 @@ textarea {
 
 /* footer starts here  */
 footer {
-  background-color: black;
+  background-color: #2A70E4;
   padding: 1rem;
 
   min-height: 5vh;
