@@ -53,7 +53,7 @@ body {
 }
 
 .btn {
-  background-color: rgb(230, 159, 8);
+  background-color: #2A70E4;
   border: none;
   border-radius: 0.6rem;
   box-shadow: 0.1rem 0.1rem 0.1rem #222;
@@ -301,7 +301,7 @@ nav li:hover {
 .card {
   flex: 1;
   border-radius: 0.6rem;
-  background-color: #a09d9d;
+  background-color: #1D397A;
   padding: 3rem 1rem;
   margin: 2rem;
   display: flex;
@@ -317,6 +317,7 @@ nav li:hover {
   font-size: 3rem;
   margin-bottom: 2rem;
   text-align: center;
+  color: white;
 }
 
 .card-description {
@@ -324,6 +325,7 @@ nav li:hover {
   text-align: justify;
   font-size: 1.6rem;
   margin-bottom: 5rem;
+  color: white;
 }
 
 .card-btn {
@@ -390,7 +392,6 @@ textarea {
 footer {
   background-color: #2A70E4;
   padding: 1rem;
-
   min-height: 5vh;
   display: flex;
   justify-content: space-between;
